@@ -58,8 +58,8 @@ COMMON_GLOBAL_CFLAGS += -DFORCE_SCREENSHOT_CPU_PATH
 # Kernel
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
-TARGET_KERNEL_CONFIG := cyanogenmod_chagallwifi_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/chagallwifi
+TARGET_KERNEL_CONFIG := slimlp_chagallwifi_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/klimtwifi
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.8
 #TARGET_PREBUILT_KERNEL := device/samsung/chagallwifi/kernel
 
@@ -183,6 +183,8 @@ BOARD_HOSTAPD_DRIVER             := NL80211
 BOARD_HOSTAPD_PRIVATE_LIB        := lib_driver_cmd_bcmdhd
 WIFI_DRIVER_FW_PATH_PARAM        := "/sys/module/dhd/parameters/firmware_path"
 WIFI_DRIVER_FW_PATH_STA          := "/system/etc/wifi/bcmdhd_sta.bin"
+TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := device/samsung/chagallwifi/releasetools/ota_from_target_files
+
 
 # inherit from the proprietary version
 -include vendor/samsung/chagallwifi/BoardConfigVendor.mk
