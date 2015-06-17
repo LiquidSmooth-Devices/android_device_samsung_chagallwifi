@@ -58,10 +58,9 @@ COMMON_GLOBAL_CFLAGS += -DFORCE_SCREENSHOT_CPU_PATH
 # Kernel
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
-TARGET_KERNEL_CONFIG := slimlp_chagallwifi_defconfig
+TARGET_KERNEL_CONFIG := deathly_chagallwifi_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/klimtwifi
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.8
-#TARGET_PREBUILT_KERNEL := device/samsung/chagallwifi/kernel
 
 # Charging mode
 BOARD_CHARGER_ENABLE_SUSPEND := true

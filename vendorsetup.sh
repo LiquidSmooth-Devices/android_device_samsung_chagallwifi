@@ -1,2 +1,1 @@
-cp device/samsung/chagallwifi/kernel/slimlp_chagallwifi_defconfig kernel/samsung/klimtwifi/arch/arm/configs/slimlp_chagallwifi_defconfig
-add_lunch_combo cm_chagallwifi-userdebug
+add_lunch_combo liquid_chagallwifi-userdebug

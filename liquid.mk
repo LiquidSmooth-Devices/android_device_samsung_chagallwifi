@@ -1,9 +1,9 @@
 $(call inherit-product, device/samsung/chagallwifi/full_chagallwifi.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/slim/config/common_full_tablet_wifionly.mk)
+# Inherit some common Liquid stuff.
+$(call inherit-product, vendor/liquid/config/common_tablet_wifionly.mk)
 
-PRODUCT_NAME := slim_chagallwifi
+PRODUCT_NAME := liquid_chagallwifi
 PRODUCT_DEVICE := chagallwifi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
