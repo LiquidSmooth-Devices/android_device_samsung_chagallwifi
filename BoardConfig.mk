@@ -50,8 +50,5 @@ TARGET_POWERHAL_VARIANT := chagallwifi
 # SELinux
 include device/samsung/exynos5420-common/sepolicy/sepolicy.mk
 
-# Wifi
-TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := device/samsung/chagallwifi/releasetools/ota_from_target_files
-
 # inherit from the proprietary version
 -include vendor/samsung/chagallwifi/BoardConfigVendor.mk
